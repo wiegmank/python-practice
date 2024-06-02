@@ -1,4 +1,6 @@
-amount = 100
-tax = 0.06
-total = amount + (amount * tax)
-print(total)
+age = int(input("Enter current age: \n"))
+num_decades = int(age / 10)
+num_years = age - (num_decades * 10)
+num_decades = str(num_decades)
+num_years = str(num_years)
+print("You are " + num_decades + " decades and " + num_years + " year(s) old.")
